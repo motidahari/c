@@ -35,13 +35,13 @@ double div(double x, int y);
  * @param: x typy int
  * @return: result
 */
-double Exp(int x);
+double Exponent(int x);
 /**
  * name function: Pow
  * @param: x typy double, y type int
  * @return: result
 */
-double Pow(double x , int y);
+double Power(double x , int y);
 
 
 

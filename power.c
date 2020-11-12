@@ -11,7 +11,7 @@
  * @param: x typy int
  * @return: result
 */
-double Exp(int x) {
+double Exponent(int x) {
     double e = 2.71828;
     double result = e;
     for (int i = 0; i < x-1; i++){
@@ -24,7 +24,7 @@ double Exp(int x) {
  * @param: x typy double, y type int
  * @return: result
 */
-double Pow(double x , int y) {
+double Power(double x , int y) {
     double result = 1;
     for (int i = 0; i < y; i++){
         result *= x;
